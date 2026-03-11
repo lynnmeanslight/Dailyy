@@ -2,6 +2,8 @@
 
 > *Keep it cozy ✨* — A calm, beautifully designed personal productivity companion for Apple Silicon Macs.
 
+![Dailyy Cover](cover.png)
+
 ---
 
 ## Overview
