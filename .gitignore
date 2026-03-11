@@ -1,0 +1,55 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.filled.appiconset/
+
+# Build outputs
+build/
+*.o
+*.d
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.xcworkspace/xcuserdata/
+
+# CocoaPods (not used, just in case)
+Pods/
+
+# Carthage (not used, just in case)
+Carthage/Build/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Backup files created by previous renames
+*.bak
+*.bak2
+
+# Editor
+.vscode/
+*.swp
+*~

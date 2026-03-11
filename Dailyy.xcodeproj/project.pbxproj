@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1281B9776C9D4BC8B20398F8 /* HabitTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEE6B44B304E24B8C749B5 /* HabitTrackerView.swift */; };
+		1D0F7F8C8BBC418AACA83C37 /* SavingsGoalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0450B2DD89B4ACDA8D2B56B /* SavingsGoalManager.swift */; };
+		66A7F67230AF428FBBD317C5 /* HabitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848387AB0EF049CA8A9E920D /* HabitManager.swift */; };
+		7BE6CD482C284E4E815C2D36 /* MoodAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0D503BF7442AA936521F9 /* MoodAnalyticsView.swift */; };
+		99A1F06B9C0843FEB0D0FD20 /* SavingsGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007E0BC6D7046BFBBDA055E /* SavingsGoalView.swift */; };
+		A001 /* DailyyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* DailyyApp.swift */; };
+		A002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* ContentView.swift */; };
+		A003 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* PersistenceController.swift */; };
+		A004 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* DesignSystem.swift */; };
+		A005 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* Extensions.swift */; };
+		A006 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* BudgetViewModel.swift */; };
+		A007 /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* DiaryViewModel.swift */; };
+		A008 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* FriendsViewModel.swift */; };
+		A009 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* AppViewModel.swift */; };
+		A010 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010 /* SharedComponents.swift */; };
+		A011 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011 /* SidebarView.swift */; };
+		A012 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012 /* DashboardView.swift */; };
+		A013 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013 /* BudgetView.swift */; };
+		A014 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014 /* DiaryView.swift */; };
+		A015 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015 /* FriendsView.swift */; };
+		A016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F016 /* SettingsView.swift */; };
+		A017 /* Dailyy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F017 /* Dailyy.xcdatamodeld */; };
+		A018 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018 /* LocalizationManager.swift */; };
+		A019 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F019 /* Localizable.strings */; };
+		A020 /* LifeSpanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020 /* LifeSpanView.swift */; };
+		AASSETS /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FASSETS /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4007E0BC6D7046BFBBDA055E /* SavingsGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SavingsGoalView.swift; path = Dailyy/Views/Budget/SavingsGoalView.swift; sourceTree = SOURCE_ROOT; };
+		848387AB0EF049CA8A9E920D /* HabitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HabitManager.swift; path = Dailyy/Utilities/HabitManager.swift; sourceTree = SOURCE_ROOT; };
+		8AA0D503BF7442AA936521F9 /* MoodAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoodAnalyticsView.swift; path = Dailyy/Views/Diary/MoodAnalyticsView.swift; sourceTree = SOURCE_ROOT; };
+		D0450B2DD89B4ACDA8D2B56B /* SavingsGoalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SavingsGoalManager.swift; path = Dailyy/Utilities/SavingsGoalManager.swift; sourceTree = SOURCE_ROOT; };
+		E7EEE6B44B304E24B8C749B5 /* HabitTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HabitTrackerView.swift; path = Dailyy/Views/Dashboard/HabitTrackerView.swift; sourceTree = SOURCE_ROOT; };
+		F001 /* DailyyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DailyyApp.swift; path = Dailyy/App/DailyyApp.swift; sourceTree = SOURCE_ROOT; };
+		F002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Dailyy/App/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		F003 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistenceController.swift; path = Dailyy/CoreData/PersistenceController.swift; sourceTree = SOURCE_ROOT; };
+		F004 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DesignSystem.swift; path = Dailyy/Extensions/DesignSystem.swift; sourceTree = SOURCE_ROOT; };
+		F005 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Dailyy/Extensions/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		F006 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BudgetViewModel.swift; path = Dailyy/ViewModels/BudgetViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F007 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryViewModel.swift; path = Dailyy/ViewModels/DiaryViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F008 /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendsViewModel.swift; path = Dailyy/ViewModels/FriendsViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F009 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppViewModel.swift; path = Dailyy/ViewModels/AppViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F010 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SharedComponents.swift; path = Dailyy/Views/Components/SharedComponents.swift; sourceTree = SOURCE_ROOT; };
+		F011 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SidebarView.swift; path = Dailyy/Views/Components/SidebarView.swift; sourceTree = SOURCE_ROOT; };
+		F012 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardView.swift; path = Dailyy/Views/Dashboard/DashboardView.swift; sourceTree = SOURCE_ROOT; };
+		F013 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BudgetView.swift; path = Dailyy/Views/Budget/BudgetView.swift; sourceTree = SOURCE_ROOT; };
+		F014 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiaryView.swift; path = Dailyy/Views/Diary/DiaryView.swift; sourceTree = SOURCE_ROOT; };
+		F015 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendsView.swift; path = Dailyy/Views/Friends/FriendsView.swift; sourceTree = SOURCE_ROOT; };
+		F016 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Dailyy/Views/Settings/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		F017 /* Dailyy.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; name = Dailyy.xcdatamodeld; path = Dailyy/CoreData/Dailyy.xcdatamodeld; sourceTree = SOURCE_ROOT; };
+		F018 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalizationManager.swift; path = Dailyy/Extensions/LocalizationManager.swift; sourceTree = SOURCE_ROOT; };
+		F019EN /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Dailyy/Resources/en.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		F019MY /* my */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = my; path = Dailyy/Resources/my.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		F020 /* LifeSpanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LifeSpanView.swift; path = Dailyy/Views/LifeSpan/LifeSpanView.swift; sourceTree = SOURCE_ROOT; };
+		FAPP /* Dailyy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dailyy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FASSETS /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Dailyy/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FPLIST /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Dailyy/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BPFMK /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133AAE375661B0364C75B482 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		603E84BD2032E96EEC3A04FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8AA0D503BF7442AA936521F9 /* MoodAnalyticsView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		91AF9F9A4BDF61D849B6EB42 /* Dailyy */ = {
+			isa = PBXGroup;
+			children = (
+				603E84BD2032E96EEC3A04FD /* Utilities */,
+				D95DCCD44C66A45071BFBE36 /* Views */,
+				848387AB0EF049CA8A9E920D /* HabitManager.swift */,
+				D0450B2DD89B4ACDA8D2B56B /* SavingsGoalManager.swift */,
+			);
+			name = Dailyy;
+			sourceTree = "<group>";
+		};
+		9B2C0D511B6AEC90CC46C453 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D37F268EA0E7D91F21A2EEBB /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEE6B44B304E24B8C749B5 /* HabitTrackerView.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		D95DCCD44C66A45071BFBE36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B2C0D511B6AEC90CC46C453 /* Dashboard */,
+				D37F268EA0E7D91F21A2EEBB /* Budget */,
+				133AAE375661B0364C75B482 /* Diary */,
+				4007E0BC6D7046BFBBDA055E /* SavingsGoalView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		GAPP /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F001 /* DailyyApp.swift */,
+				F002 /* ContentView.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		GBUDGET /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				F013 /* BudgetView.swift */,
+			);
+			name = Budget;
+			sourceTree = "<group>";
+		};
+		GCOMP /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F010 /* SharedComponents.swift */,
+				F011 /* SidebarView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		GDASH /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F012 /* DashboardView.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		GDIARY /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				F014 /* DiaryView.swift */,
+			);
+			name = Diary;
+			sourceTree = "<group>";
+		};
+		GEXT /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F004 /* DesignSystem.swift */,
+				F005 /* Extensions.swift */,
+				F018 /* LocalizationManager.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		GFRIENDS /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F015 /* FriendsView.swift */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		GLIFESPAN /* LifeSpan */ = {
+			isa = PBXGroup;
+			children = (
+				F020 /* LifeSpanView.swift */,
+			);
+			name = LifeSpan;
+			sourceTree = "<group>";
+		};
+		GMAIN = {
+			isa = PBXGroup;
+			children = (
+				GAPP /* App */,
+				GMODELS /* CoreData */,
+				GVMS /* ViewModels */,
+				GVIEWS /* Views */,
+				GEXT /* Extensions */,
+				GRES /* Resources */,
+				FAPP /* Dailyy.app */,
+				91AF9F9A4BDF61D849B6EB42 /* Dailyy */,
+			);
+			sourceTree = "<group>";
+		};
+		GMODELS /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F003 /* PersistenceController.swift */,
+				F017 /* Dailyy.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		GRES /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FPLIST /* Info.plist */,
+				F019 /* Localizable.strings */,
+				FASSETS /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		GSETTINGS /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F016 /* SettingsView.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		GVIEWS /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				GCOMP /* Components */,
+				GDASH /* Dashboard */,
+				GBUDGET /* Budget */,
+				GDIARY /* Diary */,
+				GFRIENDS /* Friends */,
+				GLIFESPAN /* LifeSpan */,
+				GSETTINGS /* Settings */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		GVMS /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F006 /* BudgetViewModel.swift */,
+				F007 /* DiaryViewModel.swift */,
+				F008 /* FriendsViewModel.swift */,
+				F009 /* AppViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TTARGET /* Dailyy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCLLIST /* Build configuration list for PBXNativeTarget "Dailyy" */;
+			buildPhases = (
+				BPSRC /* Sources */,
+				BPFMK /* Frameworks */,
+				BPRES /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dailyy;
+			productName = Dailyy;
+			productReference = FAPP /* Dailyy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					TTARGET = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BCLPROJ /* Build configuration list for PBXProject "Dailyy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				my,
+				Base,
+			);
+			mainGroup = GMAIN;
+			productRefGroup = GMAIN;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TTARGET /* Dailyy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BPRES /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A019 /* Localizable.strings in Resources */,
+				AASSETS /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BPSRC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001 /* DailyyApp.swift in Sources */,
+				A002 /* ContentView.swift in Sources */,
+				A003 /* PersistenceController.swift in Sources */,
+				A004 /* DesignSystem.swift in Sources */,
+				A005 /* Extensions.swift in Sources */,
+				A006 /* BudgetViewModel.swift in Sources */,
+				A007 /* DiaryViewModel.swift in Sources */,
+				A008 /* FriendsViewModel.swift in Sources */,
+				A009 /* AppViewModel.swift in Sources */,
+				A010 /* SharedComponents.swift in Sources */,
+				A011 /* SidebarView.swift in Sources */,
+				A012 /* DashboardView.swift in Sources */,
+				A013 /* BudgetView.swift in Sources */,
+				A014 /* DiaryView.swift in Sources */,
+				A015 /* FriendsView.swift in Sources */,
+				A016 /* SettingsView.swift in Sources */,
+				A017 /* Dailyy.xcdatamodeld in Sources */,
+				A018 /* LocalizationManager.swift in Sources */,
+				A020 /* LifeSpanView.swift in Sources */,
+				66A7F67230AF428FBBD317C5 /* HabitManager.swift in Sources */,
+				1D0F7F8C8BBC418AACA83C37 /* SavingsGoalManager.swift in Sources */,
+				1281B9776C9D4BC8B20398F8 /* HabitTrackerView.swift in Sources */,
+				99A1F06B9C0843FEB0D0FD20 /* SavingsGoalView.swift in Sources */,
+				7BE6CD482C284E4E815C2D36 /* MoodAnalyticsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F019 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F019EN /* en */,
+				F019MY /* my */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCDEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_LOOPS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCDEBUG_T /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dailyy/Dailyy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Dailyy/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailylife.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		BCRELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_LOOPS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BCRELEASE_T /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dailyy/Dailyy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Dailyy/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailylife.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCLLIST /* Build configuration list for PBXNativeTarget "Dailyy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDEBUG_T /* Debug */,
+				BCRELEASE_T /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCLPROJ /* Build configuration list for PBXProject "Dailyy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDEBUG /* Debug */,
+				BCRELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJ /* Project object */;
+}

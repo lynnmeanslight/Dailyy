@@ -1,0 +1,177 @@
+// English Localizable.strings
+
+// MARK: - Sidebar
+"app.tagline" = "Keep it cozy ✨";
+"section.dashboard" = "Dashboard";
+"section.budget" = "Budget";
+"section.diary" = "Diary";
+"section.friends" = "Friends";
+"section.lifespan" = "Life Span";
+"section.settings" = "Settings";
+
+// MARK: - Greetings
+"greeting.morning" = "Good morning ☀️";
+"greeting.afternoon" = "Good afternoon 🌤";
+"greeting.evening" = "Good evening 🌙";
+
+// MARK: - Dashboard
+"dashboard.spending.today" = "Today's Spending";
+"dashboard.balance.monthly" = "Monthly Balance";
+"dashboard.birthdays.upcoming" = "Upcoming Birthdays";
+"dashboard.overview" = "50/30/20 Overview";
+"dashboard.journal.today" = "Today's Journal";
+"dashboard.birthdays.strip" = "Upcoming Birthdays 🎂";
+"dashboard.entry.untitled" = "Untitled";
+"bucket.needs" = "Needs (50%)";
+"bucket.wants" = "Wants (30%)";
+"bucket.savings" = "Savings (20%)";
+"bucket.saved" = "%@ saved";
+
+// MARK: - Budget
+"budget.income" = "Income";
+"budget.expenses" = "Expenses";
+"budget.balance" = "Balance";
+"budget.rule.title" = "50 / 30 / 20 Budget Rule";
+"budget.income.label" = "Income: %@";
+"budget.needs.row" = "Needs 50%%  – %@";
+"budget.wants.row" = "Wants 30%%  – %@";
+"budget.savings.row" = "Savings 20%% – %@";
+"budget.category.title" = "By Category";
+"budget.noexpenses" = "No expenses yet";
+"budget.last7days" = "Last 7 Days";
+"budget.transactions" = "Transactions";
+"budget.notransactions.title" = "No transactions";
+"budget.notransactions.subtitle" = "Tap + to record your first income or expense.";
+"budget.add.title" = "Add Transaction";
+"budget.add.type" = "Type";
+"budget.add.amount" = "Amount";
+"budget.add.category" = "Category";
+"budget.add.note" = "Note";
+"budget.add.note.placeholder" = "Optional note…";
+"budget.add.date" = "Date";
+"budget.add.cancel" = "Cancel";
+"budget.add.add" = "Add";
+
+// MARK: - Transaction types
+"type.income" = "Income";
+"type.expense" = "Expense";
+
+// MARK: - Categories
+"category.food" = "Food";
+"category.transport" = "Transport";
+"category.shopping" = "Shopping";
+"category.bills" = "Bills";
+"category.entertainment" = "Entertainment";
+"category.other" = "Other";
+
+// MARK: - Diary
+"diary.search.placeholder" = "Search entries…";
+"diary.empty.title" = "No entries yet";
+"diary.empty.subtitle" = "Start writing your first diary entry!";
+"diary.select.prompt" = "Select or create an entry";
+"diary.words" = "%d words";
+"diary.save" = "Save";
+"diary.add.title" = "New Journal Entry";
+"diary.add.mood" = "How are you feeling?";
+"diary.add.titlefield" = "Title";
+"diary.add.date" = "Date";
+"diary.add.write" = "Write something…";
+"diary.add.cancel" = "Cancel";
+"diary.add.save" = "Save Entry";
+"diary.add.placeholder.title" = "Entry title…";
+
+// MARK: - Moods
+"mood.happy" = "Happy";
+"mood.excited" = "Excited";
+"mood.calm" = "Calm";
+"mood.neutral" = "Neutral";
+"mood.tired" = "Tired";
+"mood.sad" = "Sad";
+"mood.angry" = "Angry";
+"mood.loved" = "Loved";
+
+// MARK: - Friends
+"friends.search.placeholder" = "Search friends…";
+"friends.upcoming.birthdays" = "Upcoming Birthdays 🎂";
+"friends.all" = "All Friends (%d)";
+"friends.empty.title" = "No friends yet";
+"friends.empty.subtitle" = "Add your first friend and never forget a birthday!";
+"friends.birthday.today" = "Birthday today! 🎉";
+"friends.birthday.in" = "Birthday in %d day";
+"friends.birthday.in.plural" = "Birthday in %d days";
+"friends.birthday.minicard.today" = "Today! 🎉";
+"friends.birthday.minicard.in" = "in %d day";
+"friends.birthday.minicard.in.plural" = "in %d days";
+"friends.form.add.title" = "Add Friend";
+"friends.form.edit.title" = "Edit Friend";
+"friends.form.avatar" = "Avatar";
+"friends.form.name" = "Name";
+"friends.form.location" = "Location (optional)";
+"friends.form.notes" = "Notes (optional)";
+"friends.form.has.birthday" = "Has a birthday date";
+"friends.form.birthday" = "Birthday";
+"friends.form.cancel" = "Cancel";
+"friends.form.add.btn" = "Add Friend";
+"friends.form.save.btn" = "Save";
+"friends.card.edit" = "Edit";
+"friends.card.delete" = "Delete";
+
+// MARK: - Settings
+"settings.appearance" = "Appearance";
+"settings.appearance.scheme" = "Color scheme";
+"settings.appearance.system" = "System";
+"settings.appearance.light" = "Light";
+"settings.appearance.dark" = "Dark";
+"settings.language" = "Language";
+"settings.language.subtitle" = "Choose your display language";
+"settings.budget" = "Budget";
+"settings.budget.rule" = "Enable 50/30/20 Rule";
+"settings.budget.income.title" = "Monthly Income";
+"settings.budget.income.subtitle" = "Used to calculate your budget targets";
+"settings.budget.income.set" = "Set";
+"settings.budget.breakdown" = "Budget breakdown for $%.0f:";
+"settings.notifications" = "Notifications";
+"settings.notifications.birthday" = "Enable birthday notifications";
+"settings.data" = "Data";
+"settings.data.export.title" = "Export data";
+"settings.data.export.subtitle" = "Export all entries as JSON";
+"settings.data.export.btn" = "Export";
+"settings.about" = "About";
+"settings.about.tagline" = "Your personal productivity companion ✨";
+"app.name" = "Dailyy";
+"settings.about.version" = "Version 1.0  •  Apple Silicon";
+"settings.export.alert.title" = "Export";
+"settings.export.alert.ok" = "OK";
+"settings.export.alert.message" = "Export functionality available — integrate with NSSavePanel in production.";
+
+// MARK: - Budget rule pills
+"pill.needs" = "Needs";
+"pill.wants" = "Wants";
+"pill.savings" = "Savings";
+
+// MARK: - Life Span
+"lifespan.setup.title" = "Set Your Birthday";
+"lifespan.setup.subtitle" = "Go to Settings → Profile to add your birthday and discover your life span visualization.";
+"lifespan.title" = "Your Life in Weeks";
+"lifespan.age.subtitle" = "You are %d years old  •  Life expectancy: %d years";
+"lifespan.stat.age" = "Age";
+"lifespan.stat.weeks.lived" = "Weeks Lived";
+"lifespan.stat.weeks.left" = "Weeks Left";
+"lifespan.stat.used" = "Life Used";
+"lifespan.grid.title" = "Life in Weeks";
+"lifespan.grid.subtitle" = "Each square = 1 week  •  Green = lived  •  Blue = this week";
+"lifespan.progress.lived" = "%d / %d weeks lived";
+"lifespan.progress.remaining" = "%d weeks remaining";
+"lifespan.inspire.title" = "Make It Count ✨";
+"lifespan.inspire.days" = "days remaining";
+"lifespan.inspire.hours" = "hours remaining";
+"lifespan.inspire.seasons" = "seasons remaining";
+"lifespan.quote" = "The way you spend your days is the way you spend your life.";
+
+// MARK: - Settings — Profile
+"settings.profile" = "Profile";
+"settings.profile.birthday" = "Your Birthday";
+"settings.profile.birthday.subtitle" = "Used to calculate your life span";
+"settings.profile.birthday.set" = "Set Birthday";
+"settings.profile.expectancy" = "Life Expectancy";
+"settings.profile.expectancy.subtitle" = "Target lifespan: %d years";

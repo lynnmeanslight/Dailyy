@@ -1,0 +1,176 @@
+// Myanmar (Burmese) Localizable.strings
+
+// MARK: - Sidebar
+"app.tagline" = "သက်တောင့်သက်သာလေးနေပါ ✨";
+"section.dashboard" = "ပင်မစာမျက်နှာ";
+"section.budget" = "ဘတ်ဂျက်";
+"section.diary" = "မှတ်တမ်း";
+"section.friends" = "သူငယ်ချင်းများ";
+"section.lifespan" = "ဘဝကာလ";
+"section.settings" = "ဆက်တင်";
+
+// MARK: - Greetings
+"greeting.morning" = "မင်္ဂလာနံနက်ခင်းပါ ☀️";
+"greeting.afternoon" = "မင်္ဂလာနေ့ခင်းပါ 🌤";
+"greeting.evening" = "မင်္ဂလာညနေပါ 🌙";
+
+// MARK: - Dashboard
+"dashboard.spending.today" = "ယနေ့ ကုန်ကျစရိတ်";
+"dashboard.balance.monthly" = "လစဉ် ကျန်ငွေ";
+"dashboard.birthdays.upcoming" = "မကြာမီ မွေးနေ့များ";
+"dashboard.overview" = "၅၀/၃၀/၂၀ အနှစ်ချုပ်";
+"dashboard.journal.today" = "ယနေ့ မှတ်တမ်း";
+"dashboard.birthdays.strip" = "မကြာမီ မွေးနေ့များ 🎂";
+"dashboard.entry.untitled" = "ခေါင်းစဉ်မဲ့";
+"bucket.needs" = "အခြေခံလိုအပ်ချက် (၅၀%)";
+"bucket.wants" = "အလိုဆန္ဒ (၃၀%)";
+"bucket.savings" = "စုဆောင်းငွေ (၂၀%)";
+"bucket.saved" = "%@ စုဆောင်းပြီး";
+
+// MARK: - Budget
+"budget.income" = "ဝင်ငွေ";
+"budget.expenses" = "ကုန်ကျစရိတ်";
+"budget.balance" = "ကျန်ငွေ";
+"budget.rule.title" = "၅၀ / ၃၀ / ၂၀ ဘတ်ဂျက်နည်းလမ်း";
+"budget.income.label" = "ဝင်ငွေ: %@";
+"budget.needs.row" = "အခြေခံလိုအပ်ချက် ၅၀%%  – %@";
+"budget.wants.row" = "အလိုဆန္ဒ ၃၀%%  – %@";
+"budget.savings.row" = "စုဆောင်းငွေ ၂၀%% – %@";
+"budget.category.title" = "အမျိုးအစားအလိုက်";
+"budget.noexpenses" = "မည်သည့် ကုန်ကျစရိတ်မှ မရှိသေးပါ";
+"budget.last7days" = "နောက်ဆုံး ၇ ရက်";
+"budget.transactions" = "ငွေသွင်းငွေထုတ်မှတ်တမ်း";
+"budget.notransactions.title" = "မှတ်တမ်းများ မရှိသေးပါ";
+"budget.notransactions.subtitle" = "+ ကို နှိပ်ပြီး ဝင်ငွေ သို့မဟုတ် ကုန်ကျစရိတ် ထည့်ပါ။";
+"budget.add.title" = "ငွေကြေးမှတ်တမ်း ထည့်ရန်";
+"budget.add.type" = "အမျိုးအစား";
+"budget.add.amount" = "ပမာဏ";
+"budget.add.category" = "ခေါင်းစဉ်";
+"budget.add.note" = "မှတ်ချက်";
+"budget.add.note.placeholder" = "မှတ်ချက် (ရှိလျှင်)…";
+"budget.add.date" = "ရက်စွဲ";
+"budget.add.cancel" = "ပယ်ဖျက်";
+"budget.add.add" = "ထည့်ရန်";
+
+// MARK: - Transaction types
+"type.income" = "ဝင်ငွေ";
+"type.expense" = "ကုန်ကျစရိတ်";
+
+// MARK: - Categories
+"category.food" = "အစားအသောက်";
+"category.transport" = "သယ်ယူပို့ဆောင်ရေး";
+"category.shopping" = "ဈေးဝယ်ခြင်း";
+"category.bills" = "ငွေပေးချေမှုများ";
+"category.entertainment" = "ဖျော်ဖြေရေး";
+"category.other" = "အခြား";
+
+// MARK: - Diary
+"diary.search.placeholder" = "မှတ်တမ်းများ ရှာဖွေရန်…";
+"diary.empty.title" = "မှတ်တမ်းများ မရှိသေးပါ";
+"diary.empty.subtitle" = "သင်၏ ပထမဆုံး မှတ်တမ်းကို စရေးပါ!";
+"diary.select.prompt" = "မှတ်တမ်းတစ်ခုကို ရွေးချယ်ပါ သို့မဟုတ် အသစ်ဖန်တီးပါ";
+"diary.words" = "စကားလုံး %d လုံး";
+"diary.save" = "သိမ်းဆည်းရန်";
+"diary.add.title" = "မှတ်တမ်းအသစ်";
+"diary.add.mood" = "ဘယ်လို ခံစားနေရလဲ?";
+"diary.add.titlefield" = "ခေါင်းစဉ်";
+"diary.add.date" = "ရက်စွဲ";
+"diary.add.write" = "တစ်ခုခုရေးပါ…";
+"diary.add.cancel" = "ပယ်ဖျက်";
+"diary.add.save" = "မှတ်တမ်း သိမ်းဆည်းရန်";
+"diary.add.placeholder.title" = "ခေါင်းစဉ် ရိုက်ထည့်ပါ…";
+
+// MARK: - Moods
+"mood.happy" = "ပျော်ရွှင်";
+"mood.excited" = "စိတ်လှုပ်ရှား";
+"mood.calm" = "အေးချမ်း";
+"mood.neutral" = "သာမန်";
+"mood.tired" = "ပင်ပန်း";
+"mood.sad" = "ဝမ်းနည်း";
+"mood.angry" = "ဒေါသထွက်";
+"mood.loved" = "ချစ်မြတ်နိုး";
+
+// MARK: - Friends
+"friends.search.placeholder" = "သူငယ်ချင်းများ ရှာဖွေရန်…";
+"friends.upcoming.birthdays" = "မကြာမီ မွေးနေ့များ 🎂";
+"friends.all" = "သူငယ်ချင်းအားလုံး (%d)";
+"friends.empty.title" = "သူငယ်ချင်းများ မရှိသေးပါ";
+"friends.empty.subtitle" = "ပထမဆုံး သူငယ်ချင်းကို ထည့်ပါ၊ မွေးနေ့ကို ဘယ်တော့မှ မမေ့စေနဲ့!";
+"friends.birthday.today" = "ယနေ့ မွေးနေ့ပါ! 🎉";
+"friends.birthday.in" = "မွေးနေ့ %d ရက်အတွင်း";
+"friends.birthday.in.plural" = "မွေးနေ့ %d ရက်အတွင်း";
+"friends.birthday.minicard.today" = "ယနေ့! 🎉";
+"friends.birthday.minicard.in" = "%d ရက်အတွင်း";
+"friends.birthday.minicard.in.plural" = "%d ရက်အတွင်း";
+"friends.form.add.title" = "သူငယ်ချင်း ထည့်ရန်";
+"friends.form.edit.title" = "သူငယ်ချင်း ပြင်ဆင်ရန်";
+"friends.form.avatar" = "ပုံ";
+"friends.form.name" = "နာမည်";
+"friends.form.location" = "တည်နေရာ (ရှိလျှင်)";
+"friends.form.notes" = "မှတ်ချက် (ရှိလျှင်)";
+"friends.form.has.birthday" = "မွေးနေ့ ရက်စွဲ ရှိသည်";
+"friends.form.birthday" = "မွေးနေ့";
+"friends.form.cancel" = "ပယ်ဖျက်";
+"friends.form.add.btn" = "သူငယ်ချင်း ထည့်ရန်";
+"friends.form.save.btn" = "သိမ်းဆည်း";
+"friends.card.edit" = "ပြင်ဆင်";
+"friends.card.delete" = "ဖျက်ရန်";
+
+// MARK: - Settings
+"settings.appearance" = "ပုံစံ";
+"settings.appearance.scheme" = "အရောင်ပုံစံ";
+"settings.appearance.system" = "စနစ်";
+"settings.appearance.light" = "အလင်း";
+"settings.appearance.dark" = "အမှောင်";
+"settings.language" = "ဘာသာစကား";
+"settings.language.subtitle" = "ပြသမည့် ဘာသာစကား ရွေးချယ်ပါ";
+"settings.budget" = "ဘတ်ဂျက်";
+"settings.budget.rule" = "၅၀/၃၀/၂၀ နည်းလမ်း ဖွင့်ရန်";
+"settings.budget.income.title" = "လစဉ် ဝင်ငွေ";
+"settings.budget.income.subtitle" = "ဘတ်ဂျက် ပန်းတိုင်များ တွက်ချက်ရန် အသုံးပြုသည်";
+"settings.budget.income.set" = "သတ်မှတ်";
+"settings.budget.breakdown" = "$%.0f အတွက် ဘတ်ဂျက် ခွဲဝေမှု:";
+"settings.notifications" = "အကြောင်းကြားချက်";
+"settings.notifications.birthday" = "မွေးနေ့ အကြောင်းကြားချက် ဖွင့်ရန်";
+"settings.data" = "ဒေတာ";
+"settings.data.export.title" = "ဒေတာ ထုတ်ယူရန်";
+"settings.data.export.subtitle" = "မှတ်တမ်းများကို JSON ဖြင့် ထုတ်ယူရန်";
+"settings.data.export.btn" = "ထုတ်ယူ";
+"settings.about" = "အကြောင်း";
+"settings.about.tagline" = "သင်၏ ကိုယ်ပိုင် စွမ်းဆောင်ရည်မြှင့် အဖော်မွန် ✨";
+"settings.about.version" = "ဗားရှင်း ၁.၀  •  Apple Silicon";
+"settings.export.alert.title" = "ထုတ်ယူရန်";
+"settings.export.alert.ok" = "OK";
+"settings.export.alert.message" = "ထုတ်ယူမှု လုပ်ဆောင်နိုင်သည် — ထုတ်ကုန်ဖြန့်ချိမှုအတွက် NSSavePanel ဖြင့် ပေါင်းစပ်ပါ။";
+
+// MARK: - Budget rule pills
+"pill.needs" = "အခြေခံလိုအပ်ချက်";
+"pill.wants" = "အလိုဆန္ဒ";
+"pill.savings" = "စုဆောင်းငွေ";
+
+// MARK: - Life Span
+"lifespan.setup.title" = "မွေးနေ့ ထည့်ပါ";
+"lifespan.setup.subtitle" = "ဆက်တင် → ကိုယ်ရေးအချက်အလက် တွင် မွေးနေ့ ထည့်ကာ ဘဝကာလ မြင်ကွင်း ကြည့်ရှုပါ။";
+"lifespan.title" = "သင်၏ ဘဝ ရက်သတ္တပတ်များ";
+"lifespan.age.subtitle" = "သင်အသက် %d နှစ်ရှိပြီ  •  ဘဝ မျှော်မှန်းချက်: %d နှစ်";
+"lifespan.stat.age" = "အသက်";
+"lifespan.stat.weeks.lived" = "ကုန်ဆုံးပြီးသော ရက်သတ္တပတ်များ";
+"lifespan.stat.weeks.left" = "ကျန်ရှိနေသော ရက်သတ္တပတ်များ";
+"lifespan.stat.used" = "သုံးစွဲပြီး";
+"lifespan.grid.title" = "ရက်သတ္တပတ်ရေတွက် ဘဝ";
+"lifespan.grid.subtitle" = "တစ်ကွက် = ၁ ရက်သတ္တပတ်  •  စိမ်း = ဖြတ်သန်းပြီး  •  ပြာ = ယခု ရက်သတ္တပတ်";
+"lifespan.progress.lived" = "%d / %d ရက်သတ္တပတ် ဖြတ်သန်းပြီး";
+"lifespan.progress.remaining" = "%d ရက်သတ္တပတ် ကျန်ရှိသေးသည်";
+"lifespan.inspire.title" = "အချိန်ကို ထိရောက်စွာ သုံးပါ ✨";
+"lifespan.inspire.days" = "ရက်များ ကျန်သည်";
+"lifespan.inspire.hours" = "နာရီများ ကျန်သည်";
+"lifespan.inspire.seasons" = "ရာသီများ ကျန်သည်";
+"lifespan.quote" = "သင့် နေ့ရက်များကို ကုန်ဆုံးစေသည့်ပုံစံသည် သင့် ဘဝကို ကုန်ဆုံးစေသည့်ပုံစံပင် ဖြစ်သည်။";
+
+// MARK: - Settings — Profile
+"settings.profile" = "ကိုယ်ရေးအချက်အလက်";
+"settings.profile.birthday" = "မွေးနေ့";
+"settings.profile.birthday.subtitle" = "ဘဝကာလ တွက်ချက်ရန် အသုံးပြုသည်";
+"settings.profile.birthday.set" = "မွေးနေ့ ထည့်ပါ";
+"settings.profile.expectancy" = "ဘဝ မျှော်မှန်းချက်";
+"settings.profile.expectancy.subtitle" = "ရည်မှန်းသောဘဝ: %d နှစ်";
